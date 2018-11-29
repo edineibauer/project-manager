@@ -2,7 +2,7 @@
 
 $tpl = new \Helpers\Template(DOMINIO);
 $read = new \ConnCrud\Read();
-$read->exeRead("equipe", "ORDER BY id LIMIT 6");
+$read->exeRead("equipe", "ORDER BY id LIMIT 9");
 $equipe = ($read->getResult() ? $read->getResult() : []);
 
 $read->exeRead("clientes", "WHERE status = 1 ORDER BY id DESC LIMIT 10");
@@ -15,7 +15,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
             <h1 class="mbr-section-title align-right mbr-bold pb-3 mbr-fonts-style display-1">SOLUÇÕES PARA O SEU
                 NEGÓCIO</h1>
             <h3 class="mbr-section-subtitle align-right mbr-light pb-3 mbr-fonts-style display-2">Criação de Sites</h3>
-            <p class="mbr-text align-right pb-3 mbr-fonts-style display-5">COM PAINEIS ADMINISTRATIVOS, RELATÓRIOS,
+            <p class="mbr-text align-right pb-3 mbr-fonts-style display-5">COM PAINÉIS ADMINISTRATIVOS, RELATÓRIOS,
                 LEADS E AUTOMAÇÃO DE PROCESSOS, A AG3 CONSTRÓI A SOLUÇÃO PARA O SEU NEGÓCIO PROSPERAR</p>
             <div class="mbr-section-btn align-right"><span class="btn btn-md btn-primary display-4">CONHECER</span>
                 <span class="btn btn-md btn-white-outline display-4">VER VÍDEO</span></div>
@@ -53,9 +53,8 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
                 <div class="card-box">
                     <h4 class="card-title py-3 mbr-fonts-style display-5">
                         SITE OU APP?</h4>
-                    <p class="mbr-text mbr-fonts-style display-7">A ag3 trabalha com sites e apps! Através de um sistema
-                        híbrido de desenvolvimento, nossos sites não necessitam de internet para operar, além de nada
-                        ficar desatualizado.</p>
+                    <p class="mbr-text mbr-fonts-style display-7">A AG3 trabalha com sites e apps, através de um sistema
+                        híbrido de desenvolvimento, onde a internet não é necessária para seu uso.</p>
                 </div>
             </div>
 
@@ -66,8 +65,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
                 <div class="card-box">
                     <h4 class="card-title py-3 mbr-fonts-style display-5">AONDE VOCÊ FOR</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        Não dependa de uma dispositivo para usar seu sistema, nossas soluções são multiplataformas, isso
-                        quer dizer que você poderá utilizá-lo em seu smartphone ou em seu notebook. Tanto faz!</p>
+                        Disponibilizamos soluções multiplataformas para uso tanto em smartphones quanto em notebooks. Não dependa mais de um dispositivo fixo!</p>
                 </div>
             </div>
 
@@ -187,7 +185,8 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
 
                     <div class="card-box">
                         <p class="mbr-text mbr-section-text mbr-fonts-style display-7">
-                            centralize seus dados, compartilhe com seus usuários e gerenciar em equipe.</p>
+                            Centralize seus dados, compartilhe com seus usuários e gerenciar em equipe.
+                        </p>
                     </div>
                 </div>
 
@@ -239,7 +238,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
                         </div>
                     </div>
                     <div class="card-box">
-                        <p class="mbr-text mbr-section-text mbr-fonts-style display-7">Paineis de gerenciamento e
+                        <p class="mbr-text mbr-section-text mbr-fonts-style display-7">Painéis de gerenciamento e
                             relatórios.</p>
                     </div>
                 </div>
@@ -256,7 +255,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
             <div class="col-12 align-center">
                 <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">Nossos Clientes</h2>
                 <h3 class="mbr-section-subtitle mbr-light mbr-fonts-style display-5">
-                    Conheça quem já fez parte da nossa história</h3>
+                    Conheça quem faz parte da nossa história</h3>
             </div>
         </div>
     </div>
@@ -322,7 +321,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
             <div class="col-md-6">
                 <div class="google-map">
                     <iframe frameborder="0" style="border:0"
-                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&amp;q=place_id:ChIJ2xn1cVOCIZURwFRVDOqwyhA"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&q=place_id:ChIJh4gdblOCIZURz1wvpuz4xow"
                             allowfullscreen=""></iframe>
                 </div>
             </div>
@@ -371,7 +370,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
     </div>
 </section>
 
-<section class="cid-raBhMxACab" id="footer5-8">
+<section class="cid-raBhMxACab" id="footer5-8" style="padding-bottom: 10px">
 
     <div class="container">
         <div class="media-container-row">
@@ -400,7 +399,9 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
             <div class="media-container-row mbr-white">
                 <div class="col-md-6 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2019 AG3 - Todos os direitos Reservados</p>
+                        © Copyright 2019 AG3 - Todos os direitos Reservados
+                    </p>
+                    <p class="mbr-text mbr-fonts-style display-7">Rua Imigrante Meller, 437, Ed. João Batista 1455, Criciúma - SC</p>
                 </div>
                 <div class="col-md-6">
                     <div class="social-list align-right">
