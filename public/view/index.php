@@ -94,7 +94,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
                     <div>
                         <div>
                             <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
-                                 data-tags="Sistemas">
+                                 data-tags="Softwares">
                                 <div href="#lb-gallery2-1" data-slide-to="0" data-toggle="modal">
                                     <img src="<?= HOME ?>public/assets/images/multi-1919x887-800x370.png">
                                     <span class="icon-focus"></span>
@@ -339,7 +339,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
                     </div>
 
                 </div>
-                <div>
+                <div id="contato">
                     <form class="block mbr-form" method="post">
                         <div class="row">
                             <div class="col-md-6 multi-horizontal" data-for="name">
@@ -383,8 +383,12 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
                 </div>
             </div>
             <div class="col-md-9">
-                <p class="mbr-text align-right links mbr-fonts-style display-7">SOBRE &nbsp; &nbsp; &nbsp;PORTIFÓLIO&nbsp;
-                    &nbsp; &nbsp; FAÇA PARTE&nbsp; &nbsp; &nbsp; CONTATO</p>
+                <p class="mbr-text align-right links mbr-fonts-style display-7" style="float: right">
+                    <a href="#" style="padding:5px 10px;float:left;display: block; color: #555555">SOBRE</a>
+                    <a href="#gallery2-1" style="padding:5px 10px;float:left;display: block; color: #555555">PORTIFÓLIO</a>
+                    <a href="#" style="padding:5px 10px;float:left;display: block; color: #555555">FAÇA PARTE</a>
+                    <a href="#form4-5" style="padding:5px 10px;float:left;display: block; color: #555555">CONTATO</a>
+                </p>
             </div>
         </div>
         <div class="footer-lower">
@@ -401,22 +405,22 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
                 <div class="col-md-6">
                     <div class="social-list align-right">
                         <div class="soc-item">
-                            <a href="https://twitter.com/ag3tecnologia" target="_blank">
-                                <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                            <a href="https://plus.google.com/112976110222869166702" target="_blank">
+                                <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.facebook.com/pages/ag3tecnologia/1616226671953247" target="_blank">
+                            <a href="https://www.facebook.com/ag3tecnologia/" target="_blank">
                                 <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.youtube.com/c/ag3tecnologia" target="_blank">
+                            <a href="https://www.youtube.com/channel/UCqI07E_oT8wwFcD2bsbNzbQ" target="_blank">
                                 <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://instagram.com/ag3tecnologia" target="_blank">
+                            <a href="https://www.instagram.com/ag3tecnologia/" target="_blank">
                                 <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
                             </a>
                         </div>
