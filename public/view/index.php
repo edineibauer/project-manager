@@ -399,7 +399,7 @@ $clientes = ($read->getResult() ? $read->getResult() : []);
             <div class="media-container-row mbr-white">
                 <div class="col-md-6 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2019 AG3 - Todos os direitos Reservados
+                        © Copyright <?=date('Y')?> AG3 - Todos os direitos Reservados
                     </p>
                     <p class="mbr-text mbr-fonts-style display-7">Rua Imigrante Meller, 437, Ed. João Batista 1455, Criciúma - SC</p>
                 </div>
